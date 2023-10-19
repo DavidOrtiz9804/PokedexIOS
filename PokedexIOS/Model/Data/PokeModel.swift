@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct PokeModel: Decodable {
+    
+    let results: [Pokemon]?
+    
+}
